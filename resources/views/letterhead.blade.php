@@ -28,7 +28,7 @@
     </div>
 
     <footer class="text-gray-400 text-sm mt-4">
-        Powered by Laravel • FPDI Library
+       By CODEFRONT CONSULTANCY LTD • your comprehensive IT solutions partner
     </footer>
 
 </body>
