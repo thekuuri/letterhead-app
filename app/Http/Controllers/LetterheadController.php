@@ -21,7 +21,7 @@ class LetterheadController extends Controller
         $uploadedFile = $request->file('pdf');
         $inputPath = $uploadedFile->getRealPath();
         $originalName = pathinfo($uploadedFile->getClientOriginalName(), PATHINFO_FILENAME);
-        $outputPath = storage_path('app/public/outputs/' . $originalName . '_LetterHead_' . time() . '.pdf');
+        $outputPath = storage_path('app/public/outputs/' . $originalName . '.pdf');
         $imagePath = public_path('letterheads/letterhead.png');
 
         $this->addLetterheadImage($inputPath, $imagePath, $outputPath);
